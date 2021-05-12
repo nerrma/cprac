@@ -14,22 +14,31 @@ void solve(vector<int> a, int n){
 	for(auto e: counts){
 		q.push({e.second, e.first});
 	}
+		
+	int sz = n;
 
-	for(auto e1: counts){
-		for(auto e2: counts){
-			if(e1.first != e2.first && e1.second && e2.second){
-					counts[e1.first]--;
-					counts[e2.first]--;
-			}
+	// Loop until 2 unique elements are remaining
+	while(q.size() >= 2){
+		// Get maximum elements
+		auto p1 = q.top();
+		q.pop();
+		auto p2 = q.top();
+		q.pop();
+
+		p1.first--;
+		p2.first--;
+
+		sz -= 2;
+
+		if(p1.first){
+			q.push({p1.first, p1.second});
+		}
+		if(p2.first){
+			q.push({p2.first, p2.second});
 		}
 	}
 
-	int ans = 0;
-	for(auto e: counts){
-		ans += e.second;
-	}
-
-	cout << ans << endl;
+	cout << sz << endl;
 }
 
 int main(){
