@@ -1,7 +1,7 @@
 Solutions to competitive programming problems, I will include links to the problems and what I learned from each one.
 
-Format 
-: - (Link to problem) - filename
+Format:
+- (Link to problem) - filename
 	- What I learned from the problem
 
 ### Codeforces
