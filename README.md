@@ -4,7 +4,7 @@ Solutions to competitive programming problems, I will include links to the probl
 <summary>Script Info</summary>
 <br>
 
-**`scrape.py`** Scrapes a Codeforces problem page for input and output data, storing them in input.txt and output.txt. 
+**`scrape.py`** Scrapes a Codeforces problem page for input and output data, storing them in **`input.txt`** and **`output.txt`**. 
 - Usage: `python scrape.py <url>`
 
 **`btest.sh`** Builds a given program and compares its output to the output in **`output.txt`**. The program output is stored in **`prog_out.txt`**.
