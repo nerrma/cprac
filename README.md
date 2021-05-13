@@ -30,3 +30,6 @@ Format:
 	- Prefix sums to represent a greedy method. 
 - [Epic Transformation](http://codeforces.com/problemset/problem/1506/D) - epic.cpp
 	- Priority queues to represent the maximal (or minimal) elements.
+- [Permutation Transformation](http://codeforces.com/problemset/problem/1490/D) - perm_transform.cpp
+	- Application of divide and conquer, split the array in 2. 
+
