@@ -32,4 +32,6 @@ Format:
 	- Priority queues to represent the maximal (or minimal) elements.
 - [Permutation Transformation](http://codeforces.com/problemset/problem/1490/D) - perm_transform.cpp
 	- Application of divide and conquer, split the array in 2. 
+- [Goofy Numbers](http://codeforces.com/problemset/problem/72/I) - goofy_numbers.cpp
+	- Simple problem using modulo, read the problem submissions first.
 
