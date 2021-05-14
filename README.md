@@ -34,4 +34,7 @@ Format:
 	- Application of divide and conquer, split the array in 2. 
 - [Goofy Numbers](http://codeforces.com/problemset/problem/72/I) - goofy_numbers.cpp
 	- Simple problem using modulo, read the problem submissions first.
+- [Boredom](http://codeforces.com/problemset/problem/455/A) - boredom.cpp
+	- Strange implementation of DP, will look over this again.  
+
 
