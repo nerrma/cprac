@@ -36,5 +36,7 @@ Format:
 	- Simple problem using modulo, read the problem submissions first.
 - [Boredom](http://codeforces.com/problemset/problem/455/A) - boredom.cpp
 	- Strange implementation of DP, will look over this again.  
+- [Winner](https://codeforces.com/problemset/problem/2/A) - winner.cpp
+
 
 
