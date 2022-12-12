@@ -44,6 +44,8 @@ def get_results(url):
     with open("./sols/output.txt", "w") as f:
         f.write(out.text)
 
+    browser.close()
+
 called = False
 for i in range(len(sys.argv)):
     if isValidURL(sys.argv[i]):
